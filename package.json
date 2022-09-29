@@ -1,0 +1,31 @@
+{
+  "name": "cockroachdb-edge-locations-dedicated",
+  "version": "1.0.0",
+  "description": "A demo node application to create, read and delete locations",
+  "main": "/bin/index.js",
+  "scripts": {
+    "create": "node ./bin/index.js create",
+    "read": "node ./bin/index.js read",
+    "delete": "node ./bin/index.js delete",
+    "generate": "prisma generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/cockroachdb-edge-locations-dedicated.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/cockroachdb-edge-locations-dedicated/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/cockroachdb-edge-locations-dedicated#readme",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "commander": "^9.4.0",
+    "fast-geoip": "^1.1.88",
+    "ip": "^1.1.8",
+    "prisma": "^4.4.0"
+  }
+}
