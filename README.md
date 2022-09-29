@@ -1,4 +1,4 @@
-# cockroachdb-edge-locations-dedicated
+# cockroachdb-edge-locations-cli
 
 A demo node application to create, read and delete locations
 
